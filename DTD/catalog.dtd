@@ -1,0 +1,48 @@
+<!ELEMENT catalog (regions, m_types, locations)>
+
+<!ELEMENT regions (region+)>
+<!ELEMENT region EMPTY>
+<!ATTLIST region
+        id ID #REQUIRED
+        name CDATA #REQUIRED>
+
+<!ELEMENT m_types (m_type+)>
+<!ELEMENT m_type EMPTY>
+<!ATTLIST m_type 
+        id ID #REQUIRED
+        type CDATA #REQUIRED>
+
+<!ELEMENT locations (location+)>
+<!ELEMENT location (museum_type+)>
+<!ATTLIST location region_id IDREF #REQUIRED>
+
+<!ELEMENT museum_type (museum+)>
+<!ATTLIST museum_type m_type_id IDREF #REQUIRED>
+<!ELEMENT museum (name, image, description, address, 
+                  contacts, prices, working_hours)>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image href ENTITY #REQUIRED>
+<!NOTATION jpeg PUBLIC "image/jpeg">
+
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT address (#PCDATA)> <!-- PITAI ZA ELEMENTI-->
+<!ELEMENT contacts (phone+, email?)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT prices (entry_fee, lection)>
+<!ELEMENT entry_fee (retiree, adults, children, students, disabled, groups)>
+<!ELEMENT retiree (#PCDATA)>
+<!ELEMENT adults (#PCDATA)>
+<!ELEMENT children (#PCDATA)>
+<!ELEMENT students (#PCDATA)>
+<!ELEMENT disabled (#PCDATA)>
+<!ELEMENT groups (#PCDATA)>
+<!ELEMENT lection (language+)>
+<!ELEMENT language (#PCDATA)>
+
+<!ELEMENT working_hours (working_days, non-working_days)>
+<!ELEMENT working_days (#PCDATA)>
+<!ELEMENT non-working_days (#PCDATA)>

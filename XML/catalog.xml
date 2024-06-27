@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogXSL.xsl"?>
+<!DOCTYPE catalog SYSTEM 'catalog.dtd' [
+    <!ENTITY NHM SYSTEM "https://stolica.bg/wp-content/uploads/2019/03/nim_natsionalen_istoricheski_muzey_(6).JPG" NDATA jpeg>
+    <!ENTITY NWIM SYSTEM "https://www.museology.bg/UserFiles/pictures/453F9A33-F0DD-8865-D46D-861D44E9513C.jpg?cache&w=1200" NDATA jpeg>
+    <!ENTITY PrirNauc SYSTEM "https://upload.wikimedia.org/wikipedia/commons/7/78/Natural-history-sofia-ifb.JPG" NDATA jpeg>
+    <!ENTITY Vraca SYSTEM "https://cdst.ro/wp-content/uploads/2019/07/IMG_6679.jpg" NDATA jpeg>
+    <!ENTITY Osam SYSTEM "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Nsmus.jpg/220px-Nsmus.jpg" NDATA jpeg>
+    <!ENTITY Preslav SYSTEM "https://upload.wikimedia.org/wikipedia/commons/9/9e/Preslav2.jpg" NDATA jpeg>
+    <!ENTITY Etur SYSTEM "https://static.tildacdn.com/tild6438-3932-4838-b866-343530623565/Index-1640.jpg" NDATA jpeg>
+]>
+
+
+<catalog>
+    <regions>
+        <region id="NW" name="Northwest" />
+        <region id="NC" name="North Central" />
+        <region id="NE" name="Northeast" />
+        <region id="SW" name="Southwest" />
+        <region id="SC" name="South Central" />
+        <region id="SE" name="Southeast" />
+    </regions>
+    <m_types>
+        <m_type id="National" type="National Museum" />
+        <m_type id="Regional_Historical" type="Regional Historical Museum" />
+        <m_type id="Natural_History" type="Natural History Museum" />
+        <m_type id="Archaeological" type="Archaeological Museum" />
+        <m_type id="Etnographic" type="Etnographic Museum" />
+    </m_types>
+    <locations>
+        <location region_id="SW">
+            <museum_type m_type_id="National">
+                <!-- NIM-->
+                <museum>
+                    <name>Национален исторически музей</name>
+                    <image href="NHM" />
+                    <description>Националния исторически музей е създаден с разпореждане на Бюрото
+                        на Министерския съвет на НРБ през 1973 г. Първата експозиция е открита през
+                        1984 г. в сградата на Съдебната палата в София в чест на 1300-годишнината от
+                        създаването на българската държава.</description>
+                    <address>Национален исторически музей, ул. „Витошко лале“ 16 ,София 1618
+                        ,БЪЛГАРИЯ</address>
+                    <contacts>
+                        <phone>+359-(0)896 720 336 – за заявки</phone>
+                        <phone>+359-(0)2-955 42 90 – директорски кабинет</phone>
+                        <phone>+359-(0)2-955 76 04 – тел. централа</phone>
+                        <email>nim.pr@historymuseum.org</email>
+                    </contacts>
+                    <prices>
+                        <entry_fee>
+                            <retiree>5.00 лв.</retiree>
+                            <adults>5.00 лв.</adults>
+                            <children>3.00 лв.</children>
+                            <students>3.00 лв.</students>
+                            <disabled>Безплатно</disabled>
+                            <groups>10.00 лв.</groups>
+                        </entry_fee>
+                        <lection>
+                            <language>български език – 20.00 лв.</language>
+                            <language>чужд език – 35.00 лв.</language>
+                            <language>български език с превод – 25.00 лв.</language>
+                        </lection>
+                    </prices>
+                    <working_hours>
+                        <working_days>понеделник – неделя (зимно 01.10 -31.03), 09:30 –18:00 ч.
+                            (каса до 17:15 ч.) (лятно 01.04 – 30.09), 09:30 –19:00 ч. (каса до 18:15
+                            ч.) </working_days>
+                        <non-working_days>Няма почивни дни</non-working_days>
+                    </working_hours>
+                </museum>
+                <!-- NWIM-->
+                <museum>
+                    <name>Национален военноисторически музей</name>
+                    <image href="NWIM" />
+                    <description>Националният военноисторически музей (НВИМ) е държавен музей, който
+                        от създаването си до днес е структура на Министерство на отбраната
+                        (респективно Министерство на войната и Министерство на народната отбрана).
+                        Той издирва, съхранява, научно обработва и популяризира културни ценности,
+                        свързани с националната и европейска военна история. НВИМ развива своята
+                        дейност на територията на цялата страна. За своето вековно присъствие в
+                        културноисторическото пространство в неговите фондове са съхранени и
+                        проучени повече от 1 000 000 културни ценности, свидетели на българската и
+                        европейска военна история.</description>
+                    <address>България, 1505, гр. София, ул. „Черковна“ No 92</address>
+                    <contacts>
+                        <phone>+359 2/946 1805</phone>
+                        <email>nvim@militarymuseum.bg</email>
+                    </contacts>
+                    <prices>
+                        <entry_fee>
+                            <retiree>2 лв.</retiree>
+                            <adults>10 лв.</adults>
+                            <children>(до 7 год.) безплатно</children>
+                            <students>2 лв.</students>
+                            <disabled>2 лв.</disabled>
+                            <groups>От 12 до 20 души 2 лв. по- малко от редовната цена</groups>
+                        </entry_fee>
+                        <lection>
+                            <language>Български език - 30/60 лв</language>
+                            <language>Английски език - 30/60 лв</language>
+                            <language>Немски език - 30/60 лв</language>
+                            <language>Руски език - 30/60 лв</language>
+                            <language>Френски език - 30/60 лв</language>
+                        </lection>
+                    </prices>
+                    <working_hours>
+                        <working_days>Сряда – Неделя 10 - 18 ч. </working_days>
+                        <non-working_days>24.12 до 27.12 и 30.12 до 2.01</non-working_days>
+                    </working_hours>
+                </museum>
+                <!-- PrirNauc-->
+                <museum>
+                    <name>Национален природонаучен музей</name>
+                    <image href="PrirNauc" />
+                    <description>Националният природонаучен музей е институция, посветена на запазването, изучаването и представянето на природното богатство и биоразнообразие на дадена страна или регион. Този тип музей обикновено играе ключова роля в образователната и научната общност, като насърчава интереса и разбирането за природата, екосистемите и животните.</description>
+                    <address>бул. Цар Освободител 1, 1000 София</address>
+                    <contacts>
+                        <phone>087 9226573 – деловодство</phone>
+                        <phone>087 7089048 – музеен магазин</phone>
+                        <email>contact@nmnhs.com</email>
+                    </contacts>
+                    <prices>
+                        <entry_fee>
+                            <retiree>пенсионери и лица над 65 г. – 5 лв.</retiree>
+                            <adults>Цена за възрастен – 10.00 лв.</adults>
+                            <children>безплатно</children>
+                            <students>Цена за деца от 3- 6 г. – 4.00 лв.</students>
+                            <disabled>безплатно</disabled>
+                            <groups>За групи от 10 и повече посетители – 4.00 лв.</groups>
+                        </entry_fee>
+                        <lection>
+                            <language>Български език - 20 лв</language>
+                            <language>Английски език - 30 лв</language>
+                        </lection>
+                    </prices>
+                    <working_hours>
+                        <working_days>за научните отдели: понеделник — петък от 08:30 до 17:00
+                            за експозицията: понеделник — неделя 10:00 — 18:00 (последните посетители се допускат в 17:30 ч.)
+                            на 24 и 31 декември от 10:00 до 13:00 ч.</working_days>
+                        <non-working_days>1 януари, 3 март, Великден [православен] и 25 декември.</non-working_days>
+                    </working_hours>
+                </museum>
+            </museum_type>
+        </location>
+        <location region_id="NW">
+            <museum_type m_type_id="Regional_Historical">
+                <!-- Vraca-->
+                <museum>
+                    <name>Регионален исторически музей - Враца</name>
+                    <image href="Vraca" />
+                    <description>Регионалният историческия музей- Враца е една от най- авторитетните
+                        културни и научни институции в Северозападна България, в чиито фондове и
+                        зали са съхранени над 120 000 движими културни ценности от всички
+                        исторически епохи. В структурата на РИМ- Враца са включени: централна
+                        сграда, лапидариум, етнографско- възрожденски комплекс „Св. Софроний
+                        Врачански”, етнографско- възрожденски комплекс „Никола Войводов”,
+                        средновековни жилищно- отбранителни кули- „Кула на Куртпашови” и „Кула на
+                        мешчиите”. В експозиционните зали посетителите могат да се запознаят с
+                        артефакти от световна величина като: уникалният глинен олтар с еленови рога
+                        и раннонеолитните погребения „in situ”от с. Оходен, най- ранната
+                        протописменост в света, тракийското съкровище(165 сребърни и сребърни с
+                        позлата съда) от Рогозен, златното тракийско съкровище от Могиланската
+                        могила и др.</description>
+                    <address>гр. Враца, пл. "Хр. Ботев"-2</address>
+                    <contacts>
+                        <phone>092/624457 – за заявки</phone>
+                        <phone>092/624438 – тел. централа</phone>
+                        <email>vratsamuseum@mail.bg</email>
+                    </contacts>
+                    <prices>
+                        <entry_fee>
+                            <retiree>3.00 лв</retiree>
+                            <adults>8.00 лв</adults>
+                            <children>(до 7 год.) Безплатно</children>
+                            <students>4.00 лв</students>
+                            <disabled>Безплатно</disabled>
+                            <groups>няма</groups>
+                        </entry_fee>
+                        <lection>
+                            <language>Български език - 15.00 лв</language>
+                            <language>Английски език - 30.00 лв</language>
+                        </lection>
+                    </prices>
+                    <working_hours>
+                        <working_days>Понеделник – Петък 9:00 ч. – 17:30 ч. (непрекъснато). Почивни
+                            и празнични дни 9.00 ч. – 12.00 ч.; 13.00 ч. – 17.30 ч.</working_days>
+                        <non-working_days>31 Декември и 1 Януари</non-working_days>
+                    </working_hours>
+                </museum>
+            </museum_type>
+            <museum_type m_type_id="Natural_History">
+                <!-- Osam-->
+                <museum>
+                    <name>Природонаучен музей – С. ЧЕРНИ ОСЪМ</name>
+                    <image href="Osam" />
+                    <description>Природо-научният музей в с. Черни Осъм е място, в което
+                        посетителите могат да разгледат не само голямото разнообразие на животинския
+                        свят, но и природните забележителности в Стара планина и близкия Национален
+                        парк ,,Централен Балкан“. На двата етажа на Природонаучния музей се
+                        съхраняват над 700 експоната. Изложени са над 25 вида препарирани бозайници,
+                        а разходката сред експонатите е озвучена от аудиозаписи на животински звуци.
+                        В Природонаучен музей - с. Черни Осъм се помещава Информационен център на
+                        Национален парк „Централен Балкан". По този начин посетителите имат достъп
+                        до информация за същността на Парка и за видовото разнообразие на неговата
+                        територия</description>
+                    <address>село Черни Осъм 5620,ул. „Стара планина“, №132 Община Троян</address>
+                    <contacts>
+                        <phone>069 622 371</phone>
+                        <email>museum@nsmus.com</email>
+                    </contacts>
+                    <prices>
+                        <entry_fee>
+                            <retiree>2 лв.</retiree>
+                            <adults>3 лв.</adults>
+                            <children>безплатно</children>
+                            <students>2 лв.</students>
+                            <disabled>безплатно</disabled>
+                            <groups>Над 20 души 50% от редовната цена</groups>
+                        </entry_fee>
+                        <lection>
+                            <language>Български език - 20 лв</language>
+                            <language>Английски език - 30 лв</language>
+                            <language>Немски език - 30 лв</language>
+                            <language>Руски език - 30 лв</language>
+                            <language>Френски език - 30 лв</language>
+                        </lection>
+                    </prices>
+                    <working_hours>
+                        <working_days>Понеделник – Неделя 8 - 17 ч. </working_days>
+                        <non-working_days>няма</non-working_days>
+                    </working_hours>
+                </museum>
+            </museum_type>
+        </location>
+        <location region_id="NE">
+            <museum_type m_type_id="Archaeological">
+                <!-- Preslav-->
+                <museum>
+                    <name>Археологически музей „Велики Преслав“</name>
+                    <image href="Preslav" />
+                    <description>Националният историко-археологически резерват и музей „Велики
+                        Преслав“ включва реставрирани и консервирани части от разкопките на
+                        средновековния град Преслав и музей, в който се съхраняват част от откритите
+                        предмети. Той е сред Стоте национални туристически обекта. Намира се в
+                        непосредствена близост до съвременния град. Разположен е върху развалините
+                        на старата българска столица Велики Преслав (893 – 972 г.), обхваща около
+                        500 хектара от нейната площ. </description>
+                    <address>Археологически музей “Велики Преслав” Гр. Велики Преслав – 9850, п.к.
+                        16</address>
+                    <contacts>
+                        <phone>0538 43243 – за заявки</phone>
+                        <email>museum_preslav@abv.bg </email>
+                    </contacts>
+                    <prices>
+                        <entry_fee>
+                            <retiree>4.00 лв</retiree>
+                            <adults>7.00 лв</adults>
+                            <children>2.00 лв</children>
+                            <students>2.00 лв</students>
+                            <disabled>Безплатно</disabled>
+                            <groups>6.00</groups>
+                        </entry_fee>
+                        <lection>
+                            <language>Български език - 12.00 лв</language>
+                        </lection>
+                    </prices>
+                    <working_hours>
+                        <working_days>Лято (Април - Октомври) Понеделник – Петък 9:00 - 18:00 часа
+                            Събота и Неделя 10:00 - 18:00 часа Ноември Понеделник – Неделя 9:00 -
+                            17:00 часа Зима (Декември - Март) Понеделник – Петък 9:00 - 17:00 часа
+                            (лятно 01.04 – 30.09), 09:30 –19:00 ч. (каса до 18:15 ч.) </working_days>
+                        <non-working_days>Няма</non-working_days>
+                    </working_hours>
+                </museum>
+            </museum_type>
+        </location>
+        <location region_id="NC">
+            <!-- Etur-->
+            <museum_type m_type_id="Etnographic">
+                <museum>
+                    <name>Регионален етнографски музей на открито Етър</name>
+                    <image href="Etur" />
+                    <description>Музей „Етър“ — жива картина на една отминала епоха! Пристъпите ли
+                        пределите на единствения в България етнографски музей на открито, вие
+                        попадате в свят, различен от съвременния—светът на възрожденските българи.
+                        Тук водата завърта колелото на вековна воденица, а калдъръмът под краката
+                        напомня, че истинската красота в живота е скрита в преживяването на емоцията
+                        да се докоснеш до майсторлъка на предците ни.</description>
+                    <address>ул. „Генерал Дерожински“ 144, 5309 Габрово</address>
+                    <contacts>
+                        <phone>088 429 8005</phone>
+                        <email>museum@etar.bg</email>
+                    </contacts>
+                    <prices>
+                        <entry_fee>
+                            <retiree>5.00 лв.</retiree>
+                            <adults>8.00 лв.</adults>
+                            <children>(до 4 год.)безплатно</children>
+                            <students>4.00 лв.</students>
+                            <disabled>безплатно</disabled>
+                            <groups>25.00 лв.(за двама възрастни/4 учащи/семейство с деца)</groups>
+                        </entry_fee>
+                        <lection>
+                            <language>Български език - 20.00 лв</language>
+                            <language>Английски език - 30.00 лв</language>
+                            <language>Немски език - 30.00 лв</language>
+                            <language>Руски език - 30.00 лв</language>
+                            <language>Френски език - 30.00 лв</language>
+                        </lection>
+                    </prices>
+                    <working_hours>
+                        <working_days>Понеделник – Неделя 9:00 ч. – 17:00 ч.(От Май до Септември
+                            работи до 19 ч.)</working_days>
+                        <non-working_days>няма</non-working_days>
+                    </working_hours>
+                </museum>
+            </museum_type>
+        </location>
+    </locations>
+</catalog>
